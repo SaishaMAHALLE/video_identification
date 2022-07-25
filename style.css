@@ -1,0 +1,60 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    margin: 0px;
+    font-size: 25px;
+   color: maroon;
+   font-weight: bold;
+ 
+}
+
+.heading:hover{
+    background-color: rgb(16, 139, 248);
+    font-size: 28px;
+}
+
+.start, .number_obj{
+    font-size: 18px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: blueviolet;
+    bottom: 0;
+    width: 100%;
+    background-color: beige;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.copy_right_footer:hover{
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 5px white;
+}
+
+#start{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#start:hover{
+    background-color:rgb(248, 54, 86);
+    font-size: 21px;
+}
+
+#status{
+    margin-top: 1px;
+}
+
